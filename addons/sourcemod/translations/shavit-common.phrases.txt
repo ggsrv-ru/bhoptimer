@@ -50,7 +50,7 @@
 		"en"		"{1} minutes remaining."
 		"ru"		"{1} минут осталось."
 	}
-	"2Minutes"
+	"Minutes2"
 	{
 		"#format"	"{1:s}"
 		"en"		"{1} minutes remaining."
