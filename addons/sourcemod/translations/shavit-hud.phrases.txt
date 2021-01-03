@@ -5,193 +5,238 @@
 	"HudStartZone"
 	{
 		"en"		"Start Zone"
+		"ru"		"Стартовая зона"
 	}
 	"HudZoneTier"
 	{
 		"#format"	"{1:d}"
 		"en"		"Tier {1}"
+		"ru"		"Уровень {1}"
 	}
 	"HudInStartZone"
 	{
 		"#format"	"{1:d}"
 		"en"		"In Start Zone\n\n{1}"
+		"ru"		"Это стартовая зона\n\n{1}"
 	}
 	"HudInStartZoneCSGO"
 	{
 		"#format"	"{1:d}"
 		"en"		"In Start Zone\n\n\t\t\t{1}"
+		"ru"		"Это стартовая зона\n\n\t\t\t{1}"
 	}
 	"HudEndZone"
 	{
 		"en"		"End Zone"
+		"ru"		"Конечная зона"
 	}
 	"HudInEndZone"
 	{
 		"#format"	"{1:d}"
 		"en"		"In End Zone\n\n{1}"
+		"ru"		"Это конечная зона\n\n{1}"
 	}
 	"HudInEndZoneCSGO"
 	{
 		"#format"	"{1:d}"
 		"en"		"In End Zone\n\n\t\t\t{1}"
+		"ru"		"Это конечная зона\n\n\t\t\t{1}"
 	}
 	"HudPaused"
 	{
 		"en"		"[PAUSED]"
+		"ru"		"[ПАУЗА]"
 	}
 	"HudTimeText"
 	{
 		"en"		"Time"
+		"ru"		"Время"
 	}
 	"HudBestText"
 	{
 		"en"		"Best"
+		"ru"		"Лучший"
 	}
 	"HudJumpsText"
 	{
 		"en"		"Jumps"
+		"ru"		"Прыжки"
 	}
 	"HudStyleText"
 	{
 		"en"		"Style"
+		"ru"		"Стиль"
 	}
 	"HudSpeedText"
 	{
 		"en"		"Speed"
+		"ru"		"Скорость"
 	}
 	"HudStrafeText"
 	{
 		"en"		"Strafes"
+		"ru"		"Стрейфы"
 	}
 	"HudTimeLeft"
 	{
 		"en"		"Time left"
+		"ru"		"До конца карты"
 	}
 	"HudSync"
 	{
 		"en"		"Sync"
+		"ru"		"Sync"
 	}
 	"HudPerfs"
 	{
 		"en"		"Perfect jumps"
+		"ru"		"Идеальные прыжки"
 	}
 	"HudPracticeMode"
 	{
 		"en"		"[PRACTICE]"
+		"ru"		"[ПРАКТИКА]"
 	}
 	"HudNoSpeedLimit"
 	{
 		"en"		"(No Speed Limit)"
+		"ru"		"(Нет ограничения скорости)"
 	}
 	"HudCustomSpeedLimit"
 	{
 		"#format"	"{1:d}"
 		"en"		"(Speed Limit: {1})"
+		"ru"		"(Ограничение скорости: {1})"
 	}
 	// ---------- Menus ---------- //
 	"HUDMenuTitle"
 	{
 		"en"		"HUD settings:"
+		"ru"		"HUD настройки:"
 	}
 	"HudMaster"
 	{
 		"en"		"Master"
+		"ru"		"Мастер"
 	}
 	"HudCenter"
 	{
 		"en"		"Center text"
+		"ru"		"Текст HUD"
 	}
 	"HudZoneHud"
 	{
 		"en"		"Zone HUD"
+		"ru"		"Зона HUD"
 	}
 	"HudObserve"
 	{
 		"en"		"Spectate HUD"
+		"ru"		"Список наблюдателей HUD"
 	}
 	"HudSpectators"
 	{
 		"en"		"Spectator list"
+		"ru"		"Список наблюдателей"
 	}
 	"HudKeyOverlay"
 	{
 		"en"		"Key display"
+		"ru"		"Показ нажатия кнопок HINT"
 	}
 	"HudHideWeapon"
 	{
 		"en"		"Hide weapons"
+		"ru"		"Скрыть оружие"
 	}
 	"HudTopLeft"
 	{
 		"en"		"Top left HUD (WR/PB)"
+		"ru"		"Сверху слева HUD (WR/PB)"
 	}
 	"Hud2dVel"
 	{
 		"en"		"Use 2D Velocity"
+		"ru"		"Использовать 2D скорость"
 	}
 	"HudNoRecordSounds"
 	{
 		"en"		"No record sounds"
+		"ru"		"Без звуков рекорда"
 	}
 	"HudPracticeModeAlert"
 	{
 		"en"		"No practice mode alert"
+		"ru"		"Без оповещений в тренировке"
 	}
 	"HudRankText"
 	{
 		"en"		"Expected rank"
+		"ru"		"Ожидаемый ранг"
 	}
 	"HudTrackText"
 	{
 		"en"		"Timer track"
+		"ru"		"Таймер трек"
 	}
 	"HudSplitPbText"
 	{
 		"en"		"Split PB"
+		"ru"		"Сплит ПБ"
 	}
 	"HudMapTierText"
 	{
 		"en"		"Map tier"
+		"ru"		"Уровень карты"
 	}
 	"HudTimeDifference"
 	{
 		"en"		"Time Difference"
+		"ru"		"Разница времени (от рекорда)"
 	}
 	"HudTopLeftRankText"
 	{
 		"en"		"Top left Rank"
+		"ru"		"Top left Rank"
 	}
 	// ---------- Record Bots ---------- //
 	"ReplayText"
 	{
 		"en"		"Replay"
+		"ru"		"Реплэй"
 	}
 	"NoReplayData"
 	{
 		"en"		"No replay data loaded\nPress USE or beat #1 to play"
+		"ru"		"Для воспроизведения: \nНапишите !replay или Нажмите USE (E)"
 	}
 	"NoReplayDataTF2"
 	{
 		"en"		"No replay data loaded\n!replay or beat #1 to play"
+		"ru"		"Для воспроизведения: \nНапишите !replay или Нажмите USE (E)"
 	}
 	// ---------- Panels ---------- //
 	"SpectatorPersonal"
 	{
 		"en"		"Spectators"
+		"ru"		"Наблюдатели"
 	}
 	"SpectatorWatching"
 	{
 		"en"		"Other Spectators"
+		"ru"		"Другие наблюдатели"
 	}
 	// ---------- Commands ---------- //
 	"HudEnabledComponent"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}"
 		"en"		"{1}{2} {3}HUD setting {4}enabled{5}."
+		"ru"		"{1}{2} {3}HUD настройки {4}ВКЛ{5}."
 	}
 	"HudDisabledComponent"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}"
 		"en"		"{1}{2} {3}HUD setting {4}disabled{5}."
+		"ru"		"{1}{2} {3}HUD настройки {4}ВЫКЛ{5}."
 	}
 }

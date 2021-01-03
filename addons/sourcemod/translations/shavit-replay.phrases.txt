@@ -4,58 +4,71 @@
 	"DeleteReplayAdminMenu"
 	{
 		"en"		"Delete replay"
+		"ru"		"Удалить реплей"
 	}
 	"DeleteReplayMenuTitle"
 	{
 		"en"		"Delete a replay:"
+		"ru"		"Удалить реплей:"
 	}
 	"MenuResponseNo"
 	{
 		"en"		"NO!"
+		"ru"		"НЕТ!"
 	}
 	"MenuResponseYes"
 	{
 		"en"		"Yes, I understand this action cannot be reversed!"
+		"ru"		"Да, я понимаю, что это действие не может быть отменено!"
 	}
 	"ReplayDeletionConfirmation"
 	{
 		"#format"	"{1:s}"
 		"en"		"Confirm deletion of {1} replay?"
+		"ru"		"Подтвердить удаление {1} реплея?"
 	}
 	"ReplaysUnavailable"
 	{
 		"en"		"No replays available."
+		"ru"		"Нет доступных повторов."
 	}
 	// ---------- Replay Deletion ---------- //
 	"ReplayDeleted"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"Deleted replay for {1}{2}{3}."
+		"ru"		"Удалить повтор для {1}{2}{3}."
 	}
 	"ReplayDeleteFailure"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"Could not delete replay for {1}{2}{3}."
+		"ru"		"Не удалось удалить повтор для {1}{2}{3}."
 	}
 	// ---------- Central Replay Menu ---------- //
 	"CentralReplayTitle"
 	{
 		"en"		"Select a replay style to play:"
+		"ru"		"Выберите стиль для воспроизведения:"
 	}
 	"CentralReplayPlaying"
 	{
 		"en"		"The replay bot is busy, try again when it's idle."
+		"ru"		"Бот воспроизведения занят, попробуйте еще раз, когда он освободится."
 	}
 	"CentralReplayStop"
 	{
 		"en"		"Stop the current replay."
+		"ru"		"Остановить текущий повтор."
 	}
 	"CentralReplayStopped"
 	{
 		"en"		"Forcibly stopped replay."
+		"ru"		"Принудительно остановлён повтор."
 	}
 	"CentralReplayTrack"
 	{
 		"en"		"Select a track to play:"
+		"ru"		"Выберите трек для воспроизведения:"
 	}
 }

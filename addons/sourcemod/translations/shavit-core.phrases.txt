@@ -5,125 +5,150 @@
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"Autobhop {1}enabled{2}."
+		"ru"		"Автобхоп {1}включён{2}."
 	}
 	"AutobhopDisabled"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"Autobhop {1}disabled{2}."
+		"ru"		"Автобхоп {1}выключен{2}."
 	}
 	"CheatTimerStop"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"{1}Timer stopped! {2}{3}"
+		"ru"		"{1}Таймер остановлен! {2}{3}."
 	}
 	"CommandDisabled"
 	{
 		"#format" 	"{1:s},{2:s},{3:s}"
 		"en"		"The command ({1}{2}{3}) is disabled."
+		"ru"		"Команда ({1}{2}{3}) выключена."
 	}
 	"StyleNoAccess"
 	{
 		"#format" 	"{1:s},{2:s}"
 		"en"		"You lack the {1}permissions{2} for this style."
+		"ru"		"Вам не хватает {1}прав{2} для этого стиля."
 	}
 	// ---------- Errors ---------- //
 	"VerificationFailed"
 	{
 		"en"		"Couldn't verify your, or the server's connection to Steam."
+		"ru"		"Не удалось проверить ваше или серверное соединение со Steam."
 	}
 	// ---------- Menus ---------- //
 	"StyleMenuTitle"
 	{
 		"en"		"Choose a style:"
+		"ru"		"Выберите стиль:"
 	}
 	"StyleSelection"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"You have chosen to play {1}{2}{3}."
+		"ru"		"Вы выбрали режим {1}{2}{3}."
 	}
 	"StyleUnranked"
 	{
 		"en"		"[Unranked]"
+		"ru"		"[Unranked]"
 	}
 	// ---------- Misc ---------- //
 	"LeftRightCheat"
 	{
 		"en"		"Detected +left/right on a disallowed style."
+		"ru"		"Обнаружено + влево / вправо!"
 	}
 	"Inconsistencies"
 	{
 		"en"		"Detected inconsistencies in button presses."
+		"ru"		"Обнаруженные несоответствия в нажатиях кнопок."
 	}
 	"UnrankedWarning"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"{1}WARNING: {2}This style is unranked. Your times WILL NOT be saved and will be only displayed to you!"
+		"ru"		"{1}Внимание: {2}этот стиль для калибровки. И ваше время не будет сохранено и будет отображаться только Вам!."
 	}
 	"PracticeModeAlert"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"{1}WARNING: {2}You're now in practice mode. Your times WILL NOT be saved and will be only displayed to you!"
+		"ru"		"{1}Внимание: {2}вы находитесь в режиме тренировки. Ваше время не будет сохранено и будет отображаться только для вас!."
 	}
 	"SHSWCombination0"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"Your SHSW combination is {1}W/A & S/D{2}."
+		"ru"		"Ваша SHSW комбинация является {1}W/A & S/D{2}."
 	}
 	"SHSWCombination1"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"Your SHSW combination is {1}W/D & S/A{2}."
+		"ru"		"Ваша SHSW комбинация является {1}W/D & S/A{2}."
 	}
 	"NewAiraccelerate"
 	{
 		"#format"	"{1:d},{2:s},{3:d},{4:s}"
 		"en"		"Your airacceleration has been changed from {1} to {2}{3}{4}."
+		"ru"		"Ваше ускорение было изменено с {1} до {2}{3}{4}."
 	}
 	// ---------- Pauses ---------- //
 	"MessagePause"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"{1}Timer has been {2}paused{3}."
+		"ru"		"{1}Таймер был {2}остановлен{3}."
 	}
 	"MessageUnpause"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"{1}Timer has been {2}resumed{3}."
+		"ru"		"{1}Таймер был {2}возобновлен{3}."
 	}
 	"PauseNotOnGround"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"You {1}are not{2} allowed to pause when not on ground."
+		"ru"		"Вы {1}не можете{2} делать паузу когда не на земле!."
 	}
 	"PauseStartZone"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}"
 		"en"		"{1}You {2}cannot{3} pause in the {4}start zone{5}."
+		"ru"		"{1}Вы {2}не можете {3} сделать паузу в {4}стартовой зоне{5}."
 	}
 	"TimerUnpaused"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"Timer has been {1}unpaused{2}."
+		"ru"		"Таймер был снят с {1}паузы{2}."
 	}
 	"TimerPaused"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"Timer has been {1}paused{2}."
+		"ru"		"Таймер был поставлен на {1}паузу{2}."
 	}
 	// ---------- Zones ---------- //
 	"StartZoneUndefined"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}"
 		"en"		"Your timer {1}will not{2} start because the {3}{4}{5} start zone is not set."
+		"ru"		"Ваш таймер {1} не запустится,{2} потому что начальная зона {3}{4}{5} не установлена."
 	}
 	"EndZoneUndefined"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"You {1}can't{2} teleport as an end zone for the map is not defined."
+		"ru"		"Вы {1} не можете {2} телепортироваться, так как конечная зона для карты не определена."
 	}
 	"DebugOffsets"
 	{
 		"#format"	"{1:f},{2:s}"
 		"en"		"Your time offset was {1}. The distance was {2} units."
+		"ru"		"Your time offset was {1}. The distance was {2} units."
 	}
 }

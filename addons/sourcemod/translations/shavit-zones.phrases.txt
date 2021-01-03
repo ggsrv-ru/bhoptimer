@@ -4,288 +4,354 @@
 	"AddMapZone"
 	{
 		"en"		"Add map zone"
+		"ru"		"Добавить мап зону"
 	}
 	"DeleteAllMapZone"
 	{
 		"en"		"Delete ALL map zones"
+		"ru"		"Удалить ВСЕ мап зоны"
 	}
 	"DeleteMapZone"
 	{
 		"en"		"Delete map zone"
+		"ru"		"Удалить мап зону"
 	}
 	// ---------- Commands ---------- //
 	"StageCommandAlive"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"You have to be {1}alive{2} to use this command."
+		"ru"		"Вы должны быть {1}живы{2} чтобы использовать эту команду."
 	}
 	"ModifierCommandNoArgs"
 	{
 		"en"		"Usage: sm_modifier <decimal number>"
+		"ru"		"Используйте: sm_modifier <decimal number>"
 	}
 	"ModifierTooLow"
 	{
 		"en"		"Modifier must be higher than 0."
+		"ru"		"Модификатор должен быть больше 0."
 	}
 	"ModifierSet"
 	{
 		"en"		"Modifier set to"
+		"ru"		"Модификатор установлен в"
 	}
 	"ZonesCommand"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"You {1}cannot{2} setup mapzones when you're dead."
+		"ru"		"Вы {1}не можете{2} настроить зону карты, когда мертвы."
 	}
 	"ZoneCustomSpawnMenuTitle"
 	{
 		"en"		"Add custom spawn for track:"
+		"ru"		"Добавить пользовательский спавн для трека:"
 	}
 	"ZoneCustomSpawnMenuDeleteTitle"
 	{
 		"en"		"Delete custom spawn for track:"
+		"ru"		"Удалить пользовательский спавн для трека:"
 	}
 	"ZoneCustomSpawnExists"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"Custom Spawn for track {1}{2}{3} already exists. Please delete it before placing a new one."
+		"ru"		"Пользовательский спавн для трека {1}{2}{3} уже существует. Пожалуйста, удалите его перед размещением нового."
 	}
 	"ZoneCustomSpawnMissing"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"Custom Spawn for track {1}{2}{3} is missing."
+		"ru"		"Пользовательский спавн для трека {1}{2}{3} отсутствует."
 	}
 	"ZoneCustomSpawnDelete"
 	{
 		"en"		"Deleted Custom Spawn successfully."
+		"ru"		"Пользовательский спавн успешно удален."
 	}
 	"ZoneDead"
 	{
 		"en"		"You can't place zones when you're dead."
+		"ru"		"Вы не можете размещать зоны, когда вы мертвы."
 	}
 	// ---------- Panel Text ---------- //
 	"AbortZoneCreation"
 	{
 		"en"		"Abort zone creation"
+		"ru"		"Прервать создание зоны"
 	}
 	"GridSnapPlus"
 	{
 		"#format"	"{1:d}"
 		"en"		"Grid snap + (x{1})"
+		"ru"		"Сетка зоны + (x{1})"
 	}
 	"GridSnapMinus"
 	{
 		"en"		"Grid snap -"
+		"ru"		"Сетка зоны -"
 	}
 	"WallSnap"
 	{
 		"#format"	"{1:T}"
 		"en"		"Snap to wall: {1}"
+		"ru"		"Привязать к стене: {1}"
 	}
 	"CursorZone"
 	{
 		"#format"	"{1:T}"
 		"en"		"Use cursor position: {1}"
+		"ru"		"Исп-ть позицию курсора: {1}"
 	}
 	// ---------- Zone Menu ---------- //
 	"ZoneAdjustCancel"
 	{
 		"en"		"Cancel"
+		"ru"		"Отмена"
 	}
 	"ZoneAdjustDone"
 	{
 		"en"		"Done!"
+		"ru"		"Принять"
 	}
 	"ZoneAdjustPosition"
 	{
 		"en"		"Adjust the zone's position.\nUse 'sm_modifier <number>' to set a new modifier."
+		"ru"		"Отрегулируйте положение зоны.\nИспользуйте 'sm_modifier <number>' чтобы установить новый модификатор."
 	}
 	"ZoneAxis"
 	{
 		"en"		"axis"
+		"ru"		"ось"
 	}
 	"ZoneCustomSpawnSuccess"
 	{
 		"en"		"Successfully placed custom spawn!"
+		"ru"		"Успешно размещен пользовательский спавн!"
 	}
 	"ZoneDecreased"
 	{
 		"en"		"decreased"
+		"ru"		"снизить"
 	}
 	"ZoneEditConfirm"
 	{
 		"en"		"Confirm?"
+		"ru"		"Подтвердить?"
 	}
 	"ZoneDeleteSuccessful"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"Deleted {1}{2}{3} successfully."
+		"ru"		"Удаление {1}{2}{3} успешно."
 	}
 	"ZoneDeleteAllSuccessful"
 	{
 		"en"		"Deleted all map zones successfully"
+		"ru"		"Успешно удалены все зоны карты."
 	}
 	"ZoneFirst"
 	{
 		"en"		"FIRST"
+		"ru"		"ПЕРВЫЙ"
 	}
 	"ZoneIncreased"
 	{
 		"en"		"increased"
+		"ru"		"повысить"
 	}
 	"ZoneMenuDeleteTitle"
 	{
 		"en"		"Delete a zone:\nPressing a zone will delete it. This action CANNOT BE REVERTED!"
+		"ru"		"Удалить зону:\nНажмите на зону, чтобы удалить ее. Это действие НЕ МОЖЕТ БЫТЬ ОТМЕНЕНО!."
 	}
 	"ZoneMenuDeleteALLTitle"
 	{
 		"en"		"Delete ALL mapzones?\nPressing 'Yes' will delete all the existing mapzones for this map.\nThis action CANNOT BE REVERTED!"
+		"ru"		"Удалить ВСЕ зоны?\nНажмите 'Да' чтобы удалить все существующие зоны для этой карты.\nЭто действие НЕ МОЖЕТ БЫТЬ ОТМЕНЕНО!."
 	}
 	"ZoneMenuNo"
 	{
 		"en"		"NO!"
+		"ru"		"НЕТ!"
 	}
 	"ZonesMenuNoneFound"
 	{
 		"en"		"No zones found."
+		"ru"		"Зоны не найдены."
 	}
 	"ZoneMenuStage"
 	{
 		"en"		"Select A Stage:"
+		"ru"		"Выберите уровень:"
 	}
 	"ZoneMenuTrack"
 	{
 		"en"		"Select a track:"
+		"ru"		"Выберите трек:"
 	}
 	"ZoneMenuTitle"
 	{
 		"#format"	"{1:s}"
 		"en"		"Select a zone type: ({1})"
+		"ru"		"Выберите тип зоны: ({1})"
 	}
 	"ZoneMenuYes"
 	{
 		"en"		"YES!!! DELETE ALL THE MAPZONES!!!"
+		"ru"		"ДА!!! УДАЛИТЬ ВСЕ МАПЗОНЫ!!!"
 	}
 	"ZonePlaceText"
 	{
 		"#format"	"{1:s}"
 		"en"		"Press USE (default 'E') to set the {1} corner in your current position."
+		"ru"		"Нажмите USE (по умолчанию 'E'), чтобы установить угол {1} в вашей текущей позиции."
 	}
 	"ZonePlaceTextTF2"
 	{
 		"#format"	"{1:s}"
 		"en"		"Press ATTACK2 (default 'right click') to set the {1} corner in your current position."
+		"ru"		"Нажмите ATTACK2 (по умолчанию «правый клик»), чтобы установить угол {1} в вашей текущей позиции."
 	}
 	"ZonePoint"
 	{
 		"#format"	"{1:d},{2:c}"
 		"en"		"Point {1} | {2} axis"
+		"ru"		"Точка {1} | {2} ось"
 	}
 	"ZoneSecond"
 	{
 		"en"		"SECOND"
+		"ru"		"СЕКУНДА"
 	}
 	"ZoneSetAdjust"
 	{
 		"en"		"Adjust position"
+		"ru"		"Редактировать"
 	}
 	"ZoneForceRender"
 	{
 		"#format"	"{1:s}"
 		"en"		"[{1}] Force zone drawing"
+		"ru"		"[{1}] Force zone drawing"
+
 	}
 	"ZoneSetAiraccelerate"
 	{
 		"#format"	"{1:d}"
 		"en"		"Airaccelerate: {1}"
+		"ru"		"Ускорение: {1}"
 	}
 	"ZoneSetSpeedLimit"
 	{
 		"#format"	"{1:d}"
 		"en"		"Custom speed limit: {1}"
+		"ru"		"Ограничение скорости: {1}"
 	}
 	"ZoneSetSpeedLimitUnlimited"
 	{
 		"#format"	"{1:d}"
 		"en"		"Custom speed limit: {1} (No Limit)"
+		"ru"		"Ограничение скорости: {1} (Нет лимита)"
 	}
 	"ZoneSetStage"
 	{
 		"#format"	"{1:d}"
 		"en"		"Stage: {1}"
+		"ru"		"Уровень: {1}"
 	}
 	"ZoneEnterDataChat"
 	{
 		"en"		"Input your desired data in chat."
+		"ru"		"Введите желаемые данные в чат."
 	}
 	"ZoneSetNo"
 	{
 		"en"		"No"
+		"ru"		"Нет"
 	}
 	"ZoneSetTP"
 	{
 		"en"		"Yes (choose teleport destination first)"
+		"ru"		"Да (сначала выберите пункт назначения телепорта)"
 	}
 	"ZoneSetTPZone"
 	{
 		"en"		"Update teleport destination"
+		"ru"		"Обновить точку телепорта"
 	}
 	"ZoneSetYes"
 	{
 		"en"		"Yes"
+		"ru"		"Да"
 	}
 	"ZoneSizeIncrease"
 	{
 		"#format"	"{1:s},{2:c},{3:s},{4:d},{5:s},{6:.01f},{7:s}"
 		"en"		"{1}{2} axis{3} (point {4}) increased by {5}{6}{7}."
+		"ru"		"{1}{2} ось{3} (точка {4}) увеличена на {5}{6}{7}."
 	}
 	"ZoneSizeDecrease"
 	{
 		"#format"	"{1:s},{2:c},{3:s},{4:d},{5:s},{6:.01f},{7:s}"
 		"en"		"{1}{2} axis{3} (point {4}) decreased by {5}{6}{7}."
+		"ru"		"{1}{2} ось{3} (точка {4}) уменьшена на {5}{6}{7}."
 	}
 	"ZoneTeleportUpdated"
 	{
 		"en"		"Teleport destination updated."
+		"ru"		"Телепорт зоны назначения обновлен."
 	}
 	"ZoneTeleportInsideZone"
 	{
 		"en"		"You may not place the destination inside the zone."
+		"ru"		"Вы не можете разместить пункт назначения внутри зоны телепорта."
 	}
 	"ZoneEditTrack"
 	{
 		"#format"	"{1:s}"
 		"en"		"Zone track: {1}"
+		"ru"		"Зона трека: {1}"
 	}
 	"ZoneEdit"
 	{
 		"en"		"Edit a map zone"
+		"ru"		"Изменить зону карты"
 	}
 	"ZoneEditTitle"
 	{
 		"en"		"Choose a zone to edit:"
+		"ru"		"Выберите зону для ред-ния:"
 	}
 	"ZoneInside"
 	{
 		"en"		"(Inside!)"
+		"ru"		"(Внутри!)"
 	}
 	"ZoneEditRefresh"
 	{
 		"en"		"Refresh menu"
+		"ru"		"Обновить меню"
 	}
 	// ---------- Messages ---------- //
 	"ZoneSlayEnter"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"{1}You have been slain for entering a {2}glitch zone{3}."
+		"ru"		"{1}Вы прошли карту и были убиты{2} запретной зоной{3}."
 	}
 	"ZoneStopEnter"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"{1}Your timer has been stopped for entering a {2}glitch zone{3}."
+		"ru"		"{1}Ваш таймер остановлен за вход в{2} запретную зону{3}."
 	}
 	"ZoneStageEnter"
 	{
 		"#format"	"{1:s},{2:s},{3:d},{4:s},{5:s},{6:s}{7:s}"
 		"en"		"{1}You have reached stage {2}{3}{4} with a time of {5}{6}{7}."
+		"ru"		"{1}Вы достигли стейджа {2}{3}{4} со временем {5}{6}{7}."
 	}
 }
