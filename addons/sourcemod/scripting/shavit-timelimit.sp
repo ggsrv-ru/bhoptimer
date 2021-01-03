@@ -288,29 +288,33 @@ public Action Timer_PrintToChat(Handle timer)
 		case 1200: Shavit_PrintToChatAll("%T", "Minutes", LANG_SERVER, "20");
 		case 600: Shavit_PrintToChatAll("%T", "Minutes", LANG_SERVER, "10");
 		case 300: Shavit_PrintToChatAll("%T", "Minutes", LANG_SERVER, "5");
-		case 120: Shavit_PrintToChatAll("%T", "Minutes", LANG_SERVER, "2");
+		case 120: Shavit_PrintToChatAll("%T", "Minutes2", LANG_SERVER, "2");
 		case 60: Shavit_PrintToChatAll("%T", "Seconds", LANG_SERVER, "60");
 		case 30: Shavit_PrintToChatAll("%T", "Seconds", LANG_SERVER, "30");
 		case 15: Shavit_PrintToChatAll("%T", "Seconds", LANG_SERVER, "15");
 		
-		case -1:
+		case 3:
 		{
 			Shavit_PrintToChatAll("3..");
 		}
 		
-		case -2:
+		case 2:
 		{
 			Shavit_PrintToChatAll("2..");
 		}
 		
-		case -3:
+		case 1:
 		{
 			Shavit_PrintToChatAll("1..");
 		}
 
-		case -4:
+		case 0:
 		{
-			CS_TerminateRound(0.0, CSRoundEnd_Draw, true);
+			char sMap[PLATFORM_MAX_PATH];
+			if(GetNextMap(sMap, sizeof sMap))
+			{
+				ForceChangeLevel(sMap, "Timeleft map");
+			}
 		}
 	}
 

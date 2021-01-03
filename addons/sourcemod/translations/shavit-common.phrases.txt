@@ -40,7 +40,13 @@
 	{
 		"#format"	"{1:s}"
 		"en"		"{1} minutes remaining."
-	}	
+	}
+	"Minutes2"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} minutes remaining."
+		"ru"		"{1} минуты осталось."
+	}
 	"Seconds"
 	{
 		"#format"	"{1:s}"
