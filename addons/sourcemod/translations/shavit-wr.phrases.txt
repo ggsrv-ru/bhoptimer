@@ -4,197 +4,241 @@
 	"DeletionAborted"
 	{
 		"en"		"Aborted deletion."
+		"ru"		"Удаление прервано"
 	}
 	"DeletedRecord"
 	{
 		"en"		"Deleted record."
+		"ru"		"Удаленный рекорд"
 	}
 	"DeletedRecordsMap"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"Deleted ALL records for {1}{2}{3}."
+		"ru"		"Удалить рекорд карты {1}{2}{3}."
 	}
 	"DeletedRecordsStyle"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"Deleted ALL records for {1}{2}{3}."
+		"ru"		"Удалить рекорды стиля {1}{2}{3}."
 	}
 	// ---------- Client Menus ---------- //
 	"ListClientRecords"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"Records for {1}:\n({2})"
+		"ru"		"Рекорды на {1}:\n({2})"
 	}
 	// ---------- Completion Messages ---------- //
 	"FirstCompletion"
 	{
 		"#format"	"{1:s},{2:N},{3:s},{4:s},{5:s},{6:s},{7:s},{8:s},{9:s},{10:s},{11:d},{12:s},{13:d},{14:d},{15:s},{16:s}"
 		"en"		"{1}{2}{3} finished ({4}{5}{6}) in {7}{8}{9} ({10}#{11}{12}) with {13} jumps, {14} strafes{15}{16}."
+		"ru"		"{1}{2}{3} Финишировал ({4}{5}{6}) за {7}{8}{9} ({10}#{11}{12}) с {13} прыжками, {14} стрейфами{15}{16}."
 	}
 	"NotFirstCompletion"
 	{
 		"#format"	"{1:s},{2:N},{3:s},{4:s},{5:s},{6:s},{7:s},{8:s},{9:s},{10:s},{11:d},{12:s},{13:d},{14:d},{15:s},{16:s},{17:s},{18:s}"
 		"en"		"{1}{2}{3} finished ({4}{5}{6}) in {7}{8}{9} ({10}#{11}{12}) with {13} jumps, {14} strafes{15}{16}. {17}(-{18})"
+		"ru"		"{1}{2}{3} Финишировал ({4}{5}{6}) за {7}{8}{9} ({10}#{11}{12}) с {13} прыжками, {14} стрейфами{15}{16}. {17}(-{18})"
 	}
 	"WorseTime"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s},{6:s},{7:d},{8:d},{9:s},{10:s},{11:s}"
 		"en"		"You have finished ({1}{2}{3}) in {4}{5}{6} with {7} jumps, {8} strafes{9}{10}. (+{11})"
+		"ru"		"Вы финишировали ({1}{2}{3}) за {4}{5}{6} с {7} прыжками, {8} стрейфами{9}{10}. (+{11})"
 	}
 	"UnrankedTime"
 	{
 		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s},{6:s},{7:d},{8:d},{9:s},{10:s}"
 		"en"		"You have finished ({1}{2}{3}) in {4}{5}{6} with {7} jumps, {8} strafes{9}{10}."
+		"ru"		"Вы финишировали ({1}{2}{3}) за {4}{5}{6} с {7} прыжками, {8} стрейфами{9}{10}."
 	}
 	// ---------- Deletion Menus ---------- //
 	"DeleteAllRecords"
 	{
 		"en"		"Delete ALL map records"
+		"ru"		"Удалить рекорды на всех картах"
 	}
 	"DeleteAllRecordsMenuTitle"
 	{
 		"#format"	"{1:s},{2:s},{3:s}"
 		"en"		"Delete ALL the records for '{1}'? (Track: {2} | Style: {3})"
+		"ru"		"Удалить все рекорды на '{1}'? (Трэк: {2} | Стиль: {3})"
 	}
 	"DeleteConfirm"
 	{
 		"en"		"Are you sure?"
+		"ru"		"Вы уверены?"
 	}
 	"DeleteMenuTitle"
 	{
 		"en"		"Delete a record from:"
+		"ru"		"Удалить запись из:"
 	}
 	"DeleteSingleRecord"
 	{
 		"en"		"Delete a single record"
+		"ru"		"Удалить одну запись"
 	}
 	"MenuResponseNo"
 	{
 		"en"		"NO!"
+		"ru"		"НЕТ!"
 	}
 	"MenuResponseYesSingle"
 	{
 		"en"		"YES!!! DELETE THE RECORD!!!"
+		"ru"		"ДА!!! УДАЛИТЬ РЕКОРД!!!"
 	}
 	"MenuResponseYes"
 	{
 		"en"		"YES!!! DELETE ALL THE RECORDS!!! THIS ACTION IS IRREVERSIBLE!"
+		"ru"		"ДА!!! УДАЛИТЬ ВСЕ ЗАПИСИ !!! ЭТО ДЕЙСТВИЕ НЕОБРАТИМО!"
 	}
 	"DeleteStyleRecordsRecordsMenuTitle"
 	{
 		"#format"	"{1:s}"
 		"en"		"Choose a style to delete all the records for '{1}':"
+		"ru"		"Выберите стиль, чтобы удалить все записи для '{1}':"
 	}
 	"DeleteConfirmStyle"
 	{
 		"#format"	"{1:s}"
 		"en"		"Are you sure you want to delete ALL THE RECORDS for {1}?"
+		"ru"		"Вы уверены, что хотите удалить ВСЕ ЗАПИСИ для {1}?"
 	}
 	"MenuResponseYesStyle"
 	{
 		"#format"	"{1:s}"
 		"en"		"YES!!! DELETE THE RECORDS FOR {1}!!! THIS ACTION IS IRREVERSIBLE!"
+		"ru"		"ДА!!! УДАЛИТЬ ВСЕ ЗАПИСИ ДЛЯ {1}!!! ЭТО ДЕЙСТВИЕ НЕОБРАТИМО!"
 	}
 	"DeleteTrackSingle"
 	{
 		"en"		"Choose a track to delete a single record from:"
+		"ru"		"Выберите трек для удаления одной записи из:"
 	}
 	"DeleteTrackAll"
 	{
 		"en"		"Choose a track to delete a ALL records from:"
+		"ru"		"Выберите трек для удаления ВСЕХ записей из:"
 	}
 	"DeleteTrackAllStyle"
 	{
 		"#format"	"{1:s}"
 		"en"		"Choose a style to delete all the records for ({1}):"
+		"ru"		"Выберите стиль, чтобы удалить все записи для ({1}):"
 	}
 	// ---------- Errors ---------- //
 	"DatabaseError"
 	{
 		"en"		"Database error"
+		"ru"		"Ошибка базы данных"
 	}
 	"Error"
 	{
 		"en"		"ERROR"
+		"ru"		"Ошибка"
 	}
 	"NoStyles"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"{1}FATAL ERROR: {2}No styles are available. Contact the server owner immediately!"
+		"ru"		"{1}Критическая ошибка: {2}Нет доступных стилей. Немедленно свяжитесь с владельцем сервера!"
 	}
 	// ---------- WR Menu ---------- //
 	"RecentRecords"
 	{
 		"#format"	"{1:d}"
 		"en"		"Recent {1} record(s)"
+		"ru"		"Последний-е {1} рекорд(ы)"
 	}
 	"WRDate"
 	{
 		"en"		"Date"
+		"ru"		"Дата"
 	}
 	"WRJump"
 	{
 		"en"		"jump"
+		"ru"		"прыжок"
 	}
 	"WRJumps"
 	{
 		"en"		"Jumps"
+		"ru"		"прыжки"
 	}
 	"WRMap"
 	{
 		"#format"	"{1:s}"
 		"en"		"Records for {1}"
+		"ru"		"Рекорды на {1}"
 	}
 	"WRMapNoRecords"
 	{
 		"en"		"No records found."
+		"ru"		"Рекордов не обнаружено."
 	}
 	"WRMenuTitle"
 	{
 		"en"		"Choose a style:"
+		"ru"		"Выберите стиль:"
 	}
 	"WRPoints"
 	{
 		"en"		"points"
+		"ru"		"очки"
 	}
 	"WRPlayerStats"
 	{
 		"en"		"Player stats"
+		"ru"		"Статистика игрока"
 	}
 	"WRDeleteRecord"
 	{
 		"en"		"Delete record"
+		"ru"		"Удалить рекорд"
 	}
 	"WRPointsCap"
 	{
 		"en"		"Points"
+		"ru"		"Очки"
 	}
 	"WRRecord"
 	{
 		"en"		"records"
+		"ru"		"рекорды"
 	}
 	"WRRecordFor"
 	{
 		"en"		"Records for"
+		"ru"		"Рекорды на"
 	}
 	"WRStrafes"
 	{
 		"en"		"Strafes"
+		"ru"		"Стрейфы"
 	}
 	"WRCompletions"
 	{
 		"en"		"Completions"
+		"ru"		"Завершенные"
 	}
 	"WRStyle"
 	{
 		"en"		"Style"
+		"ru"		"Стиль"
 	}
 	"WRStyleNothing"
 	{
 		"en"		"Nothing."
+		"ru"		"Ничего."
 	}
 	"WRTime"
 	{
 		"en"		"Time"
+		"ru"		"Время"
 	}
 }

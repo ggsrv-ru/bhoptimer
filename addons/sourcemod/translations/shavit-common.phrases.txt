@@ -4,36 +4,44 @@
 	"Track"
 	{
 		"en"		"Track"
+		"ru"		"Трек"
 	}
 	"Track_Unknown"
 	{
 		"en"		"UNKNOWN TRACK"
+		"ru"		"Неизвестный Трек"
 	}
 	"Track_0"
 	{
 		"en"		"Main"
+		"ru"		"Основной"
 	}
 	"Track_1"
 	{
 		"en"		"Bonus"
+		"ru"		"Бонус"
 	}
 	// ---------- Commands ---------- //
 	"NoCommandAccess"
 	{
 		"en"		"You do not have access to this command."
+		"ru"		"У вас нет доступа к этой команде."
 	}
 	"NoConsole"
 	{
 		"en"		"Run this command from inside the game."
+		"ru"		"Запустите эту команду изнутри игры."
 	}
 	"ArgumentsMissing"
 	{
 		"#format"	"{1:s}"
 		"en"		"Usage: {1}"
+		"ru"		"Использовать: {1}"
 	}
 	"TimerCommands"
 	{
 		"en"		"Timer Commands"
+		"ru"		"Таймер команды"
 	}
 	// ---------- Timelimit ---------- //
 	"Minutes"
@@ -51,5 +59,6 @@
 	{
 		"#format"	"{1:s}"
 		"en"		"{1} seconds remaining."
+		"ru"		"{1} секунд осталось."
 	}
 }
